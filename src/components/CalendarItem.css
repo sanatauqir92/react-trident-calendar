@@ -1,0 +1,26 @@
+.cal-item {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 5px 0;
+
+  .date {
+    width: 20px;
+    padding: 0 10px;
+  }
+
+  .info {
+    margin: 10px;
+    width: fit-content;
+  }
+
+  .clear {
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+    color: #fff;
+    margin-right: 5px;
+  }
+
+}

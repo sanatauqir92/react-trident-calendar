@@ -1,8 +1,12 @@
-.Calendar {
+.calendar {
   width: 70%;
   margin: 0 auto;
 }
 
-.Cal-header {
-  font-size: calc(5px + 2vmin);
+.cal-header {
+  font-size: calc(7px + 2vmin);
+}
+
+.cal-month {
+  font-size: calc(3px + 2vmin);
 }
