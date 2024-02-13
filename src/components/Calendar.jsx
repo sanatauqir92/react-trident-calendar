@@ -3,10 +3,12 @@ import CalendarItem from './CalendarItem';
 import "./Calendar.css";
 
 const Calendar = () => {
+
   return (
-    <div className="Calendar">
-      <p className="Cal-header">Calendar</p>
-      <CalendarItem/>
+    <div className="calendar">
+      <p className="cal-header">Calendar</p>
+      <header className="cal-month">January</header>
+      <CalendarItem days={31}/>
     </div>
     )
 }
